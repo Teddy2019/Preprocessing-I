@@ -133,7 +133,7 @@ table {
 html,
 body {
   height: 100%;
-  background-image: url(img/baground.jpg);
+  background-image: url(../img/baground.jpg);
 }
 .container {
   width: 80%;
@@ -150,7 +150,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
-  border: 1px solid antiquewhite;
 }
 @media (max-width: 515px) {
   header {
@@ -175,6 +174,8 @@ header .main-intro {
   width: 45%;
   align-items: center;
   padding-top: 45px;
+  background-color: beige;
+  border-radius: 10px;
 }
 header .main-intro .name {
   font-size: 35px;
@@ -196,7 +197,9 @@ header .main-intro .teddy-interest {
   margin: 20px 0;
 }
 .middle-section .skills {
-  width: 55%;
+  width: 45%;
+  background-color: beige;
+  border-radius: 10px;
 }
 .middle-section .skills ul {
   list-style-type: disc;
@@ -207,6 +210,8 @@ header .main-intro .teddy-interest {
 }
 .middle-section .hobbies {
   width: 45%;
+  background-color: beige;
+  border-radius: 10px;
 }
 .middle-section .hobbies ul {
   list-style-type: disc;
